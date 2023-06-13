@@ -10,7 +10,8 @@ bool isLetterOrNum(char c){
 	else if (c >= 'A' && c <= 'Z')	return true;
 	else if (c >= '0' && c <= '9')	return true;
 	else return false;
-}
+}decltype;
+
 
 bool isCharValid(char c){
 	//	This function return true if the input satisfy the common rules
